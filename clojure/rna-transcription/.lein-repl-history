@@ -1,0 +1,34 @@
+(defn to-rna 
+  [string] ;; <- arglist goes here
+  clojure.string/replace #"G" "C"
+)
+to-rna G
+(defn to-rna 
+  [string] ;; <- arglist goes here
+  (clojure.string/replace #"G" "C")
+)
+to-rna "G"
+to-rna "C"
+to-rna "G"
+(clojure.string/replace "Yo" #"o" "G")
+(defn to-rna 
+  [string] ;; <- arglist goes here
+  string/replace #"G" "C"
+)
+(defn to-rna 
+  [string] ;; <- arglist goes here
+  (string/replace #"G" "C")
+)
+lein test
+exit
+inc
+map
+(user *ns)
+(def great-books ["East of Eden" "The Glass Bead Game"])
+(ns-interns *ns*)
+(get (ns-interns *ns*) 'great-books)
+(ns-user *ns*)
+(ns-map *ns*)
+(ns-name *ns*)
+great-books
+exit

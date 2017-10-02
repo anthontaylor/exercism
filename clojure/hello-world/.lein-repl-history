@@ -1,0 +1,168 @@
+(println "Hello")
+(defn hello 
+[name] ;; <- arglist goes here
+  (if (= name ("Alice")) 
+    (println "Hello, " name "!")
+  (prinln "Hello, World!")))
+(defn hello 
+[name] ;; <- arglist goes here
+  (if (= name ("Alice")) 
+    (println "Hello, " name "!")
+  (println "Hello, World!")))
+(hello "Alice")
+(hello Alice)
+exit
+(hello "Alice")
+(defn hello 
+[name] ;; <- arglist goes here
+  (if (= name ("Alice")) 
+    (println "Hello, " name "!")
+  (println "Hello, World!")))
+(hello "Alice")
+(defn hello 
+[name] ;; <- arglist goes here
+  (if (= name "Alice") 
+    (println "Hello, " name "!")
+  (println "Hello, World!")))
+(hello Alice)
+(hello "Alice)
+")
+(hello "Alice")
+exit
+(defn hello 
+[name] ;; <- arglist goes here
+  (if (= name "Alice") 
+    (println "Hello, " (concat( name "!")))
+  (println "Hello, World!")))
+(hello "Alice")
+(defn hello 
+[name] ;; <- arglist goes here
+  (if (= name "Alice") 
+    (println "Hello, " (concat( name "!"))
+  (println "Hello, World!")))
+exit
+)
+exit
+(defn hello   
+  [] ;; <- arglist goes here
+  (println ("Hello, World!"))
+)
+(hello)
+(defn hello   
+  [] ;; <- arglist goes here
+  (println "Hello, World!"))
+(hello)
+(defn hello   
+  [] ;; <- arglist goes here
+  (println "Hello, World!")
+  [name]
+  (if (= name "Alice") 
+    (print "Hello, Alice!")
+(println "Hello, Bob!")))
+(hello "Alice")
+exit
+(defn hello   
+  ([](println "Hello, World!"))
+  ([name]
+  (if (= name "Alice") 
+    (print "Hello, Alice!")
+(println "Hello, Bob!"))))
+(hello)
+(hello "Alice")
+exit
+(println "Hello, World!")
+println "Hello, World!"
+(println (str (Hello, World!))
+)
+exit
+(defn hello   
+(fn [] "Hello, World!"))
+(defn hello   
+([] "Hello, World!"))
+(hello)
+(defn hello   
+([] "Hello, World!")
+(["Alice"] "Hello, Alice!"))
+(defn hello   
+([] "Hello, World!")
+([name] "Hello, Alice!"))
+(hello)
+(hello "Alice")
+(defn hello   
+([] "Hello, World!")
+([name] 
+(if(= name "Alice")
+("Hello, Alice!")
+("Hello, Bob!"))))
+(hello "Alice")
+(defn hello   
+([] "Hello, World!")
+([name] 
+(if ((name) "Alice"))
+("Hello, Alice!")
+("Hello, Bob!")))
+(defn hello   
+([] "Hello, World!")
+([name] 
+(if (name "Alice"))
+("Hello, Alice!")
+("Hello, Bob!")))
+(defn hello   
+([] "Hello, World!")
+([name] 
+(if (name "Alice")
+("Hello, Alice!")
+("Hello, Bob!"))))
+(hello "Alice")
+(defn hello   
+([] "Hello, World!")
+([name] 
+(if (= name "Alice")
+("Hello, Alice!")
+("Hello, Bob!"))))
+(hello "Alice")
+(if (= name "Alice"))
+(defn testing
+[name]
+(= (name "Alice")))
+(testing "Alice")
+(defn testing
+[name]
+(= ((str name) "Alice")))
+(testing "Alice")
+(defn testing
+[name]
+(identical? (name "Alice")))
+(testing "Alice")
+(defn testing
+[name]
+identical? (name "Alice"))
+(testing "Alice")
+(defn testing
+[name]
+(identical? name "Alice"))
+(testing "Alice")
+(defn hello   
+([] "Hello, World!")
+([name] 
+(if (identical? name "Alice")
+("Hello, Alice!")
+("Hello, Bob!"))))
+(hello "Alice")
+(defn hello   
+([] "Hello, World!")
+([name] 
+(if (identical? name "Alice")
+  "Hello, Alice!"
+("Hello, Bob!"))))
+(hello "Alice")
+(hello "Bob")
+(defn hello   
+([] "Hello, World!")
+([name] 
+(if (identical? name "Alice")
+  "Hello, Alice!"
+"Hello, Bob!")))
+(hello "Bob")
+(hello)
+exit

@@ -1,0 +1,12 @@
+(defn response-for 
+  [response]
+  (if (identical? response "Tom-ay-to, tom-aaaah-to.")
+"Whatever."))
+(resonse-for "Tom-ay-to, tom-aaaah-to.")
+lein repl
+(defn response-for 
+  ([response]
+  (if (identical? response "Tom-ay-to, tom-aaaah-to.")
+"Whatever.")))
+(response-for "Tom-ay-to, tom-aaaah-to.")
+exit

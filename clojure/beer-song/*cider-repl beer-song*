@@ -1,0 +1,277 @@
+; CIDER 0.8.1 (package: 20141120.1746) (Java 1.8.0_111, Clojure 1.8.0, nREPL 0.2.12)
+user> (+ 1 2 3 4 5 66)
+81
+CompilerException java.lang.RuntimeException: Unable to resolve symbol: print-end-bottles in this context, compiling:(/Users/ajtaylor/exercism/clojure/beer-song/beer_song.clj:1:1) 
+user> (sing 10)
+CompilerException java.lang.RuntimeException: Unable to resolve symbol: sing in this context, compiling:(/private/var/folders/wr/gd0lyk011777th3s8by2f3fw0000gn/T/form-init6404972821429698971.clj:1:1) 
+user> (sing 1)
+CompilerException java.lang.RuntimeException: Unable to resolve symbol: sing in this context, compiling:(/private/var/folders/wr/gd0lyk011777th3s8by2f3fw0000gn/T/form-init6404972821429698971.clj:1:1) 
+CompilerException java.lang.RuntimeException: Unable to resolve symbol: p in this context, compiling:(/Users/ajtaylor/exercism/clojure/beer-song/beer_song.clj:1:1) 
+No more bottles of beer on the wall, no more bottles of beer.
+user> (ns beer-song)
+nil
+beer-song> (print-bottles)
+ArityException Wrong number of args (0) passed to: beer-song/print-bottles  clojure.lang.AFn.throwArity (AFn.java:429)
+beer-song> (print-end-bottles)
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the store and buy some more, 99 bottles of beer on the wall
+nil
+beer-song> (print-end-bottles)
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the store and buy some more, 99 bottles of beer on the wall
+nil
+beer-song> (print-end-bottles)
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on the wall
+nil
+beer-song> (print-end-bottles)
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on the wall
+nil
+beer-song> (print-end-bottles)
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on the wallly bro!
+nil
+beer-song> (print-end-bottles)
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on dude  wallly bro!
+nil
+beer-song> (sing 10)
+10  bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 bottles of beer on the wall.
+
+9  bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 bottles of beer on the wall.
+
+8  bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 bottles of beer on the wall.
+
+7  bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 bottles of beer on the wall.
+
+6  bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 bottles of beer on the wall.
+
+5  bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 bottles of beer on the wall.
+
+4  bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 bottles of beer on the wall.
+
+3  bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 bottles of beer on the wall.
+
+2  bottles of beer on the wall, 2 bottles of beer.
+Take one down and pass it around, 1 bottles of beer on the wall.
+
+1  bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, 0 bottles of beer on the wall.
+
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on dude  wallly bro!
+nil
+CompilerException java.lang.ClassNotFoundException: point., compiling:(/Users/ajtaylor/exercism/clojure/beer-song/beer_song.clj:1:1) 
+beer-song> 
+beer-song> (ns user)
+nil
+user> 
+beer-song> (print-end-bottles)
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on dude  wallly bro!
+nil
+beer-song> (sing 10)
+10  bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 bottles of beer on the wall.
+
+9  bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 bottles of beer on the wall.
+
+8  bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 bottles of beer on the wall.
+
+7  bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 bottles of beer on the wall.
+
+6  bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 bottles of beer on the wall.
+
+5  bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 bottles of beer on the wall.
+
+4  bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 bottles of beer on the wall.
+
+3  bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 bottles of beer on the wall.
+
+2  bottles of beer on the wall, 2 bottles of beer.
+Take one down and pass it around, 1 bottles of beer on the wall.
+
+1  bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, 0 bottles of beer on the wall.
+
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on dude  wallly bro!
+nil
+CompilerException java.lang.ClassNotFoundException: file., compiling:(/Users/ajtaylor/exercism/clojure/beer-song/beer_song.clj:1:1) 
+beer-song> (sing 10)
+10  bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 bottles of beer on the wall.
+
+9  bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 bottles of beer on the wall.
+
+8  bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 bottles of beer on the wall.
+
+7  bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 bottles of beer on the wall.
+
+6  bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 bottles of beer on the wall.
+
+5  bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 bottles of beer on the wall.
+
+4  bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 bottles of beer on the wall.
+
+3  bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 bottles of beer on the wall.
+
+2  bottles of beer on the wall, 2 bottles of beer.
+Take one down and pass it around, 1 bottles of beer on the wall.
+
+1  bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, 0 bottles of beer on the wall.
+
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on dude  wallly bro!
+nil
+beer-song> 
+beer-song> 
+CompilerException java.lang.RuntimeException: Unable to resolve symbol: pos in this context, compiling:(/Users/ajtaylor/exercism/clojure/beer-song/beer_song.clj:1:1) 
+beer-song> (sing 10)
+10  bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 bottles of beer on the wall.
+
+9  bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 bottles of beer on the wall.
+
+8  bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 bottles of beer on the wall.
+
+7  bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 bottles of beer on the wall.
+
+6  bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 bottles of beer on the wall.
+
+5  bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 bottles of beer on the wall.
+
+4  bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 bottles of beer on the wall.
+
+3  bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 bottles of beer on the wall.
+
+2  bottles of beer on the wall, 2 bottles of beer.
+Take one down and pass it around, 1 bottles of beer on the wall.
+
+1  bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, 0 bottles of beer on the wall.
+
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on dude  wallly bro!
+nil
+beer-song> (sing 10)
+10  bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 bottles of beer on the wall.
+
+9  bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 bottles of beer on the wall.
+
+8  bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 bottles of beer on the wall.
+
+7  bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 bottles of beer on the wall.
+
+6  bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 bottles of beer on the wall.
+
+5  bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 bottles of beer on the wall.
+
+4  bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 bottles of beer on the wall.
+
+3  bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 bottles of beer on the wall.
+
+2  bottles of beer on the wall, 2 bottles of beer.
+Take one down and pass it around, 1 bottles of beer on the wall.
+
+1  bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, 0 bottles of beer on the wall.
+
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on dude  wallly bro!
+nil
+CompilerException java.lang.RuntimeException: Unable to resolve symbol: n in this context, compiling:(/Users/ajtaylor/exercism/clojure/beer-song/beer_song.clj:19:3) 
+beer-song> (sing 10)
+10  bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 bottles of beer on the wall.
+
+9  bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 bottles of beer on the wall.
+
+8  bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 bottles of beer on the wall.
+
+7  bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 bottles of beer on the wall.
+
+6  bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 bottles of beer on the wall.
+
+5  bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 bottles of beer on the wall.
+
+4  bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 bottles of beer on the wall.
+
+3  bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 bottles of beer on the wall.
+
+2  bottles of beer on the wall, 2 bottles of beer.
+Take one down and pass it around, 1 bottles of beer on the wall.
+
+1  bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, 0 bottles of beer on the wall.
+
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on dude  wallly bro!
+nil
+beer-song> (map)
+ArityException Wrong number of args (0) passed to: core/map  clojure.lang.AFn.throwArity (AFn.java:429)
+beer-song> (+1 2 3 )
+ClassCastException java.lang.Long cannot be cast to clojure.lang.IFn  beer-song/eval4072 (form-init6404972821429698971.clj:1)
+beer-song> (+ 1 2 3)
+6
+beer-song> (sing)
+ArityException Wrong number of args (0) passed to: beer-song/sing  clojure.lang.AFn.throwArity (AFn.java:429)
+beer-song> (sing 2)
+2  bottles of beer on the wall, 2 bottles of beer.
+Take one down and pass it around, 1 bottles of beer on the wall.
+
+1  bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, 0 bottles of beer on the wall.
+
+No more bottles of beer on the wall, no more bottles of beer.
+Go to the bank and buy some more, 99 bottles of beer on dude  wallly bro!
+nil
+beer-song> (sing)
+ArityException Wrong number of args (0) passed to: beer-song/sing  clojure.lang.AFn.throwArity (AFn.java:429)
+beer-song> (sing 10)
